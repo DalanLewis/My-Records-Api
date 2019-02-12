@@ -17,6 +17,7 @@ app.use((req, res, next) => {
 app.route('/shows')
 .get((req, res) => {
     
+
     res.send(shows)})
 
 
